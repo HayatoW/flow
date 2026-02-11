@@ -1,6 +1,6 @@
 [package]
 name = "flow-cmd"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["Hayato Watanabe <solideye@me.com>"]
 description = "Command prefixing for continuous workflow using a single tool"
