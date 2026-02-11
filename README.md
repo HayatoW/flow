@@ -5,7 +5,7 @@ Command prefixing for continuous workflow using a single tool.
 ## Install
 
 ```bash
-cargo install flow
+cargo install flow-cmd
 ```
 
 ## Usage
@@ -32,6 +32,10 @@ Prefix management:
 - `:q` / `:exit` or Ctrl-D exits.
 
 History is stored in `~/.flow_history`.
+
+## Acknowledgements
+
+This project was inspired by [with](https://github.com/mchav/with). Thanks to the author for the great idea!
 
 ## License
 
