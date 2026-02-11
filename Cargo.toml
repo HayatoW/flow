@@ -1,0 +1,23 @@
+[package]
+name = "flow-cmd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Hayato Watanabe <solideye@me.com>"]
+description = "Command prefixing for continuous workflow using a single tool"
+license = "MIT"
+repository = "https://github.com/HayatoW/flow"
+keywords = ["cli", "shell", "workflow", "prefix", "productivity"]
+categories = ["command-line-utilities"]
+
+[[bin]]
+name = "flow"
+path = "src/main.rs"
+
+[dependencies]
+rustyline = "15"
+clap = { version = "4", features = ["derive"] }
+which = "7"
+
+[dev-dependencies]
+assert_cmd = "2"
+predicates = "3"
