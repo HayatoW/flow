@@ -1,5 +1,7 @@
 # flow
 
+[![Built by Devin](https://raw.githubusercontent.com/club-cog/built-by-devin/main/badges/built-by-devin.svg)](https://devin.ai)
+
 Command prefixing for continuous workflow using a single tool.
 
 ## Install
